@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-04T18:16:41.113Z",
+    "end": "2020-06-04T18:16:59.194Z",
+    "duration": 18081,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "34e0d0d7-31ee-4980-84d4-ad0318f654bf",
+      "title": "",
+      "fullFile": "cypress/integration/examples/wSectionTests.js",
+      "file": "cypress/integration/examples/wSectionTests.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "53559b24-c14f-416e-8f91-b54d18832ee9",
+          "title": "Tests in women section",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Search dresses",
+              "fullTitle": "Tests in women section Search dresses",
+              "timedOut": null,
+              "duration": 7762,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#layered_category_4').check();\ncy.get('#layered_id_attribute_group_3').check();\ncy.get('#layered_id_attribute_group_3').uncheck();\ncy.get('#layered_category_4').uncheck();",
+              "err": {},
+              "uuid": "e316e02a-aa12-426b-89d8-3f6aba54680a",
+              "parentUUID": "53559b24-c14f-416e-8f91-b54d18832ee9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Order by Highest Price",
+              "fullTitle": "Tests in women section Order by Highest Price",
+              "timedOut": null,
+              "duration": 3687,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#selectProductSort').select('Price: Highest first');",
+              "err": {},
+              "uuid": "e37a06e3-1802-4373-956a-17c7e2542092",
+              "parentUUID": "53559b24-c14f-416e-8f91-b54d18832ee9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Order by In stock",
+              "fullTitle": "Tests in women section Order by In stock",
+              "timedOut": null,
+              "duration": 2288,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#selectProductSort').select('In stock');",
+              "err": {},
+              "uuid": "3f36631f-f1c6-4e62-b5eb-67fe3b3c4154",
+              "parentUUID": "53559b24-c14f-416e-8f91-b54d18832ee9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e316e02a-aa12-426b-89d8-3f6aba54680a",
+            "e37a06e3-1802-4373-956a-17c7e2542092",
+            "3f36631f-f1c6-4e62-b5eb-67fe3b3c4154"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13737,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {},
+      "version": "5.1.0"
+    }
+  }
+}
